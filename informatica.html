@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela Técnica - Página Principal</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+
+  <div class="top-bar text-center">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <a href="index.escuelaT"><i class="bi bi-facebook"></i></a>
+        <a href="index.directivos"></a>
+
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" onclick="navigateTo('home.html')">Escuela Técnica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="equipoEscolar.html" onclick="navigateTo('institucional.html')">Equipo Escolar</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html" onclick="navigateTo('institucional.html')">Noticias</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="firstCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Primer Ciclo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="firstCycleDropdown">
+              <li><a class="dropdown-item" href="protec.html" onclick="navigateTo('procedimientos-tecnicos.html')">Procedimientos Técnicos</a></li>
+              <li><a class="dropdown-item" href="proTecno.html" onclick="navigateTo('procedimientos-tecnologicos.html')">Procedimientos Tecnológicos</a></li>
+              <li><a class="dropdown-item" href="dibujoTec.html" onclick="navigateTo('dibujo-tecnologico.html')">Dibujo Tecnológico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="secondCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ciclo Superior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="secondCycleDropdown">
+              <li><a class="dropdown-item" href="informatica.html" onclick="navigateTo('informatica.html')">Informática</a></li>
+              <li><a class="dropdown-item" href="elec.html" onclick="navigateTo('electronica.html')">Electrónica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html" onclick="navigateTo('novedades.html')">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+    <h1>Ciclo Superior: Modalidad de Informática</h1>
+
+    <section id="laboratorio-hardware">
+        <h2>1. Laboratorio de Hardware</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>El taller de <strong>Laboratorio de Hardware</strong> está orientado al aprendizaje práctico y profundo de los componentes físicos que componen un sistema informático. Los estudiantes aprenderán a identificar, montar, desarmar y reparar distintos dispositivos de hardware. El taller está diseñado para proporcionar a los alumnos una comprensión sólida de cómo funcionan los equipos desde el interior, trabajando directamente con componentes como procesadores, tarjetas madre, memorias RAM, discos duros y periféricos.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Conocer y manejar los distintos tipos de hardware de un computador.</li>
+            <li>Realizar instalaciones y mantenimiento de hardware.</li>
+            <li>Diagnosticar y reparar fallos comunes en equipos informáticos.</li>
+            <li>Aprender a ensamblar un equipo desde cero.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Destornilladores, pinzas, y otros utensilios de taller.</li>
+            <li>Componentes de computadoras como placas base, tarjetas de expansión, y memorias.</li>
+            <li>Equipos de diagnóstico (multímetros, programas de diagnóstico de hardware).</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Funcionamiento de los componentes internos de un computador.</li>
+            <li>Cómo realizar diagnósticos de fallas y reparaciones.</li>
+            <li>Instalación de dispositivos periféricos.</li>
+            <li>Ensamblaje completo de un equipo informático.</li>
+        </ul>
+    </section>
+
+    <section id="laboratorio-sistemas-operativos">
+        <h2>2. Laboratorio de Sistemas Operativos</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>En este taller, los estudiantes aprenderán a instalar, configurar y administrar diversos sistemas operativos, incluyendo Windows, Linux y macOS. Además, aprenderán sobre la gestión de archivos, la configuración de redes, la gestión de usuarios y seguridad. El taller enfatiza el entendimiento profundo de cómo los sistemas operativos interactúan con el hardware y cómo optimizar su rendimiento para tareas específicas.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Aprender a instalar y configurar sistemas operativos.</li>
+            <li>Comprender cómo funcionan los sistemas operativos a nivel de kernel y software.</li>
+            <li>Gestionar y configurar redes dentro de un sistema operativo.</li>
+            <li>Administrar permisos y usuarios.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Computadoras con acceso a diversos sistemas operativos.</li>
+            <li>Herramientas de particionamiento de discos.</li>
+            <li>Software de virtualización como VirtualBox o VMware para probar diferentes sistemas operativos sin alterar los equipos físicos.</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Instalación de sistemas operativos en diferentes plataformas.</li>
+            <li>Configuración y gestión de la red en sistemas operativos.</li>
+            <li>Resolución de problemas comunes en la administración de sistemas.</li>
+            <li>Uso avanzado de la terminal o línea de comandos, especialmente en Linux.</li>
+        </ul>
+    </section>
+
+    <section id="programacion">
+        <h2>3. Programación</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>El taller de <strong>Programación</strong> está diseñado para enseñar a los estudiantes los fundamentos de la programación, así como las mejores prácticas para escribir código limpio, eficiente y fácil de mantener. Los alumnos aprenderán a programar en lenguajes populares como Python, Java y C++, desarrollando habilidades para crear aplicaciones desde cero, realizar depuración y optimización de código.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Aprender los fundamentos de la programación y algoritmos.</li>
+            <li>Desarrollar habilidades en lenguajes de programación como Python, Java y C++.</li>
+            <li>Diseñar y desarrollar proyectos de software.</li>
+            <li>Comprender las estructuras de datos y algoritmos.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Computadoras con IDEs (Integrated Development Environments) como Visual Studio Code, Eclipse, o PyCharm.</li>
+            <li>Herramientas de depuración y control de versiones (Git y GitHub).</li>
+            <li>Acceso a bases de datos y APIs para prácticas avanzadas.</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Lógica de programación y resolución de problemas mediante código.</li>
+            <li>Diseño de interfaces de usuario simples.</li>
+            <li>Uso de estructuras de datos como listas, pilas, colas y árboles.</li>
+            <li>Desarrollo y pruebas de software.</li>
+        </ul>
+    </section>
+
+    <section id="laboratorio-aplicaciones">
+        <h2>4. Laboratorio de Aplicaciones</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>En el <strong>Laboratorio de Aplicaciones</strong>, los estudiantes desarrollarán y aprenderán a mantener aplicaciones informáticas, tanto para escritorio como para la web. El taller abarca desde la creación de aplicaciones simples en entornos como Visual Studio hasta el diseño de aplicaciones complejas con bases de datos y comunicaciones en red. Los estudiantes aprenderán sobre el ciclo de vida de una aplicación, desde el diseño inicial hasta la implementación y el mantenimiento.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Desarrollar aplicaciones de software tanto de escritorio como web.</li>
+            <li>Gestionar bases de datos dentro de las aplicaciones.</li>
+            <li>Comprender el ciclo de vida de una aplicación, incluyendo las fases de pruebas, implementación y mantenimiento.</li>
+            <li>Trabajar en proyectos de desarrollo de aplicaciones reales.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>IDEs como Visual Studio, Eclipse, o Android Studio para desarrollo de aplicaciones.</li>
+            <li>Bases de datos como MySQL, SQLite o PostgreSQL.</li>
+            <li>Herramientas de desarrollo web (HTML, CSS, JavaScript, y frameworks como React o Angular).</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Desarrollo de aplicaciones completas, desde el diseño hasta la implementación.</li>
+            <li>Gestión de bases de datos en aplicaciones.</li>
+            <li>Diseño de interfaces de usuario y experiencia de usuario (UI/UX).</li>
+            <li>Integración de servicios web y APIs para crear aplicaciones más dinámicas.</li>
+        </ul>
+    </section>
+    <footer>
+      <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+      <p>Dirección: Batalla de Chacabuco 276, Grand bourg, Argentina | Teléfono: 02320 48-0129</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela Técnica - Equipo Escolar</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <div class="top-bar text-center">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" onclick="navigateTo('home.html')">Escuela Técnica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="noticias.html" onclick="navigateTo('institucional.html')">Noticias</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="equipoEscolar.html" onclick="navigateTo('institucional.html')">Equipo Escolar</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="firstCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Primer Ciclo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="firstCycleDropdown">
+              <li><a class="dropdown-item" href="protec.html" onclick="navigateTo('procedimientos-tecnicos.html')">Procedimientos Técnicos</a></li>
+              <li><a class="dropdown-item" href="proTecno.html" onclick="navigateTo('procedimientos-tecnologicos.html')">Procedimientos Tecnológicos</a></li>
+              <li><a class="dropdown-item" href="dibujoTec.html" onclick="navigateTo('dibujo-tecnologico.html')">Dibujo Tecnológico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="secondCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ciclo Superior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="secondCycleDropdown">
+              <li><a class="dropdown-item" href="informatica.html" onclick="navigateTo('informatica.html')">Informática</a></li>
+              <li><a class="dropdown-item" href="elec.html" onclick="navigateTo('electronica.html')">Electrónica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html" onclick="navigateTo('novedades.html')">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<main>
+    <div class="contenedor-cuadro">
+        <h2>Dirección</h2>
+        <p><strong>Director:</strong> Alberto Paz</p>
+        <p><strong>Vicedirectores:</strong> Daniel Paz, Ángel</p>
+        <p><strong>Jefe de Área:</strong> Cresta</p>
+        <p><strong>Jefa de Preceptores:</strong> Silvia</p>
+
+        <h2>Preceptores</h2>
+        <p><strong>Taller:</strong> Andrea</p>
+        <p><strong>Aula:</strong> Daina, Norma, Roxana</p>
+
+        <h2>Profesores por Taller y Materia</h2>
+        <div class="seccion-taller">
+            <h3>Taller de Informática (Ciclo Superior)</h3>
+            <ul>
+                <li>Witt</li>
+                <li>Ferreyra</li>
+                <li>Bulacios</li>
+                <li>Montenegro</li>
+                <li>Rocha Julieta</li>
+                <li>Carpintela</li>
+                <li>Elsa</li>
+                <li>Estela</li>
+                <li>Fister Rogelio</li>
+                <li>Varcenilla</li>
+            </ul>
+        </div>
+        <div class="seccion-taller">
+            <h3>Taller de Electrónica (Ciclo Superior)</h3>
+            <ul>
+                <li>Estela</li>
+                <li>Daniel Paz</li>
+                <li>Fister Rogelio</li>
+                <li>Cavani</li>
+            </ul>
+        </div>
+
+        <div class="seccion-taller">
+          <h3>Talleres de ciclo basico</h3>
+          <ul>
+              <li>Leyes</li>
+              <li>Daniel Paz</li>
+              <li>Echeverry</li>
+          </ul>
+      </div>
+
+
+        <h2>Profesores por Aula y Materia</h2>
+        <div class="seccion-aula">
+            <h3>Matemática</h3>
+            <ul>
+                <li>Luisito</li>
+                <li>Cecilia Farias</li>
+                <li>Silvia Centurión</li>
+            </ul>
+        </div>
+        <div class="seccion-aula">
+          <h3>Fisico-quimica</h3>
+          <ul>
+              <li>Norma Dominguez</li>
+              <li>Tamara</li>
+              <li>Espindola</li>
+          </ul>
+        <div class="seccion-aula">
+            <h3>Literatura</h3>
+            <ul>
+                <li>Carestia</li>
+                <li>Maru</li>
+                <li>Roxana</li>
+            </ul>
+        </div>
+        <div class="seccion-aula">
+            <h3>Geografía</h3>
+            <ul>
+                <li>Speroni</li>
+                <li>Antonelo</li>
+                <li>Maria Solis</li>
+            </ul>
+        </div>
+        <div class="seccion-aula">
+            <h3>Seguridad Informática</h3>
+            <ul>
+                <li>Montenegro Claudia</li>
+                <li>Deborah</li>
+            </ul>
+        </div>
+        <div class="seccion-aula">
+            <h3>Investigación Operativa</h3>
+            <ul>
+                <li>Maria Sol ❤</li>
+                <li>Claudia Montenegro</li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer>
+  <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+  <p>Dirección: Batalla de Chacabuco 276, Grand bourg, Argentina | Teléfono: 02320 48-0129</p>
+</footer>
+  
+</body>
+</html>

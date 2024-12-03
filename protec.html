@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela Técnica - Página Principal</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Enlace al archivo CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <!-- Barra superior con redes sociales y accesos rápidos -->
+  <div class="top-bar text-center">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+    </div>
+  </div>
+
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" onclick="navigateTo('home.html')">Escuela Técnica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="noticias.html" onclick="navigateTo('institucional.html')">Noticias</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="equipoEscolar.html" onclick="navigateTo('institucional.html')">Equipo Escolar</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="firstCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Primer Ciclo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="firstCycleDropdown">
+              <li><a class="dropdown-item" href="protec.html" onclick="navigateTo('procedimientos-tecnicos.html')">Procedimientos Técnicos</a></li>
+              <li><a class="dropdown-item" href="proTecno.html" onclick="navigateTo('procedimientos-tecnologicos.html')">Procedimientos Tecnológicos</a></li>
+              <li><a class="dropdown-item" href="dibujoTec.html" onclick="navigateTo('dibujo-tecnologico.html')">Dibujo Tecnológico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="secondCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ciclo Superior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="secondCycleDropdown">
+              <li><a class="dropdown-item" href="informatica.html" onclick="navigateTo('informatica.html')">Informática</a></li>
+              <li><a class="dropdown-item" href="elec.html" onclick="navigateTo('electronica.html')">Electrónica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html" onclick="navigateTo('novedades.html')">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+      <header>
+          <h1>Taller de Procedimientos Técnicos</h1>
+      </header>
+      
+      <main>
+          <section id="procedimientos-tecnicos">
+              <h2>Procedimientos Técnicos</h2>
+              <p>El taller de <strong>Procedimientos Técnicos</strong> tiene como objetivo enseñar a los estudiantes las bases y métodos fundamentales que se utilizan en los procesos técnicos. A través de este taller, los estudiantes aprenderán a aplicar técnicas precisas para resolver problemas técnicos de manera efectiva, conociendo las normas y los procedimientos estándar que se requieren en el campo de la tecnología.</p>
+              
+              <h3>Carpintería y Herrería:</h3>
+              <p>En este taller, se abordan dos de las ramas más importantes de los procedimientos técnicos: <strong>Carpintería</strong> y <strong>Herrería</strong>. Los estudiantes aprenderán a trabajar con materiales tradicionales, como la madera y el metal, utilizando técnicas artesanales y modernas para la creación de herramientas y estructuras.</p>
+              
+              <h4>Carpintería</h4>
+              <p>La carpintería es un oficio que se enfoca en el trabajo con madera, desde el diseño hasta la fabricación de objetos funcionales o decorativos. Los estudiantes aprenderán a cortar, dar forma, ensamblar y terminar diferentes tipos de madera para crear una variedad de proyectos, como muebles, estructuras, y objetos decorativos.</p>
+              
+              <h5>Procedimientos en Carpintería:</h5>
+              <ul>
+                  <li>Selección de la madera adecuada para el proyecto.</li>
+                  <li>Corte y medición precisos de piezas.</li>
+                  <li>Unión de piezas (clavos, tornillos, y pegamento).</li>
+                  <li>Uso de herramientas manuales y eléctricas (serruchos, sierras, taladros, etc.).</li>
+                  <li>Acabado y lijado para obtener superficies lisas.</li>
+                  <li>Aplicación de barnices y pinturas.</li>
+              </ul>
+              
+              <h4>Herrería</h4>
+              <p>La herrería se ocupa de trabajar el metal, creando y reparando herramientas, estructuras y piezas de maquinaria. En este taller, los estudiantes aprenderán a usar el calor y las herramientas especializadas para modelar el metal, creando desde pequeños accesorios hasta grandes estructuras metálicas.</p>
+              
+              <h5>Procedimientos en Herrería:</h5>
+              <ul>
+                  <li>Uso de la forja para dar forma al metal con calor.</li>
+                  <li>Soldadura de piezas metálicas.</li>
+                  <li>Uso de herramientas como martillos, tenazas y cizallas.</li>
+                  <li>Corte y doblado de metales según planos y diseños.</li>
+                  <li>Tratamientos de metales para aumentar su resistencia (templado, endurecimiento).</li>
+                  <li>Aplicación de acabados superficiales (pinturas, galvanizado).</li>
+              </ul>
+              
+              <h3>Puntos a saber:</h3>
+              <ul>
+                  <li>Conceptos básicos de procedimientos técnicos.</li>
+                  <li>Seguridad en el trabajo técnico.</li>
+                  <li>Planificación de procesos.</li>
+                  <li>Técnicas de diagnóstico y reparación.</li>
+                  <li>Normas de calidad en los procesos.</li>
+              </ul>
+  
+              <h3>Herramientas a utilizar:</h3>
+              <ul>
+                  <li>Multímetros y probadores eléctricos.</li>
+                  <li>Herramientas manuales (destornilladores, alicates, sierras, martillos, etc.).</li>
+                  <li>Herramientas eléctricas (taladros, sierras eléctricas, soldadores).</li>
+                  <li>Materiales (madera, metal, tornillos, clavos, pintura, barniz).</li>
+                  <li>Máquinas especializadas en carpintería y metalurgia.</li>
+              </ul>
+  
+              <h3>Objetivos:</h3>
+              <ul>
+                  <li>Aprender a seguir procedimientos estandarizados para realizar trabajos técnicos.</li>
+                  <li>Desarrollar habilidades para diagnosticar y solucionar problemas técnicos.</li>
+                  <li>Aplicar procedimientos en proyectos prácticos de carpintería y herrería.</li>
+                  <li>Fomentar el trabajo en equipo y la resolución de problemas reales en talleres prácticos.</li>
+              </ul>
+          </section>
+      </main>
+        <!-- Contenedor de la presentación de diapositivas -->
+  <div class="slideshow-container">
+  
+    <!-- Diapositiva 1 -->
+    <div class="slide">
+      <img src="img/apinter.jfif" alt="Diapositiva 1">
+      <div class="slide-caption">
+        <p>uso de herramientas y equipo de trabajo</p>
+      </div>
+    </div>
+  
+    <!-- Diapositiva 2 -->
+    <div class="slide">
+      <img src="img/herreria.jfif" alt="Diapositiva 2">
+      <div class="slide-caption">
+      </div>
+    </div>
+  
+    <!-- Diapositiva 3 -->
+    <div class="slide">
+      <img src="img/carpin.jfif" alt="Diapositiva 3">
+      <div class="slide-caption">
+      </div>
+    </div>
+  
+    <!-- Botones de navegación -->
+    <button class="prev" onclick="changeSlide(-1)">&#10094; Anterior</button>
+    <button class="next" onclick="changeSlide(1)">Siguiente &#10095;</button>
+  </div>
+  
+  <!-- Puntos de navegación -->
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+    <p>Dirección: Batalla de Chacabuco 276, Grand bourg, Argentina | Teléfono: 02320 48-0129</p>
+</footer>
+
+  <script src="script.js"></script>
+ 
+  
+  <!-- JavaScript para navegación -->
+  <script>
+    let slideIndex = 1;
+showSlide(slideIndex);
+
+// Función para cambiar la diapositiva
+function changeSlide(n) {
+  showSlide(slideIndex += n);
+}
+
+// Función para mostrar la diapositiva actual
+function currentSlide(n) {
+  showSlide(slideIndex = n);
+}
+
+// Función para mostrar la diapositiva correspondiente
+function showSlide(n) {
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+
+  // Oculta todas las diapositivas
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Quita la clase "active" de todos los puntos
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  // Muestra la diapositiva actual y añade la clase "active" al punto correspondiente
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+function mostrarMensajeInicio() {
+            const nombreUsuario = localStorage.getItem("username");
+            const mensajeDiv = document.getElementById("mensaje");
+
+            if (username) {
+                mensajeDiv.textContent = `¡Bienvenido, ${username}!`;
+            } else {
+                mensajeDiv.textContent = "No estás registrado. Serás redirigido a la página de registro en breve.";
+                // Redirigir a la página de registro después de 5 segundos
+                setTimeout(() => {
+                    alert("Redirigiendo a la página de registro...");
+                    window.location.href = "registro.html";
+                }, 5000);
+            }
+        }
+        
+
+  </script>
+
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

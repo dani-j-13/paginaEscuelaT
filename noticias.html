@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela Técnica - Noticias</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="top-bar text-center">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" onclick="navigateTo('home.html')">Escuela Técnica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="navigateTo('institucional.html')">Noticias</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="equipoEscolar.html" onclick="navigateTo('institucional.html')">Equipo Escolar</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="firstCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Primer Ciclo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="firstCycleDropdown">
+              <li><a class="dropdown-item" href="protec.html" onclick="navigateTo('procedimientos-tecnicos.html')">Procedimientos Técnicos</a></li>
+              <li><a class="dropdown-item" href="proTecno.html" onclick="navigateTo('procedimientos-tecnologicos.html')">Procedimientos Tecnológicos</a></li>
+              <li><a class="dropdown-item" href="dibujoTec.html" onclick="navigateTo('dibujo-tecnologico.html')">Dibujo Tecnológico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="secondCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ciclo Superior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="secondCycleDropdown">
+              <li><a class="dropdown-item" href="informatica.html" onclick="navigateTo('informatica.html')">Informática</a></li>
+              <li><a class="dropdown-item" href="elec.html" onclick="navigateTo('electronica.html')">Electrónica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html" onclick="navigateTo('novedades.html')">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <header>
+        <h1>Noticias de la Escuela Técnica</h1>
+        <p>Bienvenidos a la sección de noticias de nuestra escuela técnica. Aquí encontrarás las últimas actualizaciones, eventos, logros y actividades de nuestros estudiantes y docentes. Esta página tiene como objetivo mantener a la comunidad escolar informada sobre todo lo relacionado con la vida escolar, proyectos académicos, y eventos especiales que forman parte de nuestro día a día.</p>
+    </header>
+
+    <section id="introduccion">
+        <h2>¿Qué encontrarás aquí?</h2>
+        <p>En esta página podrás acceder a artículos, anuncios importantes, noticias sobre los avances en los talleres, información sobre concursos y premios, y mucho más. Nuestra intención es brindarte información relevante sobre los acontecimientos más importantes de la escuela, los proyectos de los alumnos y las actividades que nos permiten crecer juntos como comunidad educativa.</p>
+        <p>Esta sección está dirigida tanto a estudiantes como a padres, docentes y personal administrativo. Es el canal de comunicación principal para estar al tanto de lo que sucede dentro de nuestra escuela técnica.</p>
+    </section>
+
+
+  <div class="slideshow-container">
+  <div class="slide">
+      <img src="img/comunidadE.jpg" alt="Diapositiva 3">
+      <div class="slide-caption">
+      <p>Encuentro de las comunidades educativas en el polideportivo de Grand Bourg / 25-08-23</p>
+      </div>
+    </div>
+   
+    <div class="slide">
+      <img src="img/alumnoJ.jpg" alt="Diapositiva 2">
+      <div class="slide-caption">
+        <p>mejor promedio y alumno de 5to 5ta / 12-12-23</p>
+      </div>
+    </div>
+  
+    <div class="slide">
+      <img src="img/futbol.jpg" alt="Diapositiva 1">
+      <div class="slide-caption">
+        <p>Sub 19, Campeon regional/ 27-09-24</p>
+      </div>
+    </div>
+  
+  
+    
+    <button class="prev" onclick="changeSlide(-1)">&#10094; Anterior</button>
+    <button class="next" onclick="changeSlide(1)">Siguiente &#10095;</button>
+  </div>
+  
+  
+  <div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+    <p>Dirección: Batalla de Chacabuco 276, Grand bourg, Argentina | Teléfono: 02320 48-0129</p>
+</footer>
+  
+  <script>
+ 
+    let slideIndex = 1;
+showSlide(slideIndex);
+
+
+function changeSlide(n) {
+  showSlide(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlide(slideIndex = n);
+}
+
+
+function showSlide(n) {
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+</script>
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela Técnica - Página Principal</title>
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="css/style.css">
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+  
+  <div class="top-bar text-center">
+    <div class="container d-flex justify-content-between">
+      <div>
+
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+      </div> 
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" onclick="navigateTo('home.html')">Escuela Técnica</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="equipoEscolar.html" onclick="navigateTo('institucional.html')">Equipo Escolar</a>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="navigateTo('institucional.html')">Noticias</a>
+              </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="noticias.html" id="firstCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Primer Ciclo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="firstCycleDropdown">
+              <li><a class="dropdown-item" href="protec.html" onclick="navigateTo('procedimientos-tecnicos.html')">Procedimientos Técnicos</a></li>
+              <li><a class="dropdown-item" href="proTecno.html" onclick="navigateTo('procedimientos-tecnologicos.html')">Procedimientos Tecnológicos</a></li>
+              <li><a class="dropdown-item" href="dibujoTec.html" onclick="navigateTo('dibujo-tecnologico.html')">Dibujo Tecnológico</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="secondCycleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ciclo Superior
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="secondCycleDropdown">
+              <li><a class="dropdown-item" href="informatica.html" onclick="navigateTo('informatica.html')">Informática</a></li>
+              <li><a class="dropdown-item" href="elec.html" onclick="navigateTo('electronica.html')">Electrónica</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="registro.html" onclick="navigateTo('novedades.html')">Registro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller de Electrónica - Ciclo Superior</title>
+</head>
+<body>
+
+    <h1>Ciclo Superior: Modalidad de Electrónica</h1>
+
+    <section id="laboratorio-electronica">
+        <h2>1. Laboratorio de Electrónica</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>El taller de <strong>Laboratorio de Electrónica</strong> se centra en la comprensión y el manejo de circuitos electrónicos, tanto análogos como digitales. Los estudiantes aprenderán a utilizar componentes como resistencias, transistores, capacitores y diodos, así como a leer esquemas de circuitos, montar y probar circuitos electrónicos, y solucionar problemas típicos. Este taller es fundamental para adquirir los conocimientos necesarios en el diseño y mantenimiento de sistemas electrónicos.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Desarrollar habilidades para leer y crear esquemas de circuitos electrónicos.</li>
+            <li>Aprender a usar equipos de medición como multímetros, osciloscopios y generadores de señal.</li>
+            <li>Montar y probar circuitos electrónicos, tanto análogos como digitales.</li>
+            <li>Comprender el funcionamiento de dispositivos electrónicos básicos como transistores, diodos, y amplificadores operacionales.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Multímetros, osciloscopios y generadores de señales.</li>
+            <li>Placas de pruebas (breadboards) y cables de conexión.</li>
+            <li>Componentes electrónicos como resistencias, condensadores, diodos, transistores, etc.</li>
+            <li>Software de simulación de circuitos electrónicos (por ejemplo, Tinkercad o Proteus).</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Los principios básicos de la electricidad y la electrónica (ley de Ohm, Kirchhoff, etc.).</li>
+            <li>Cómo montar circuitos electrónicos y resolver problemas comunes de conexión y funcionamiento.</li>
+            <li>La importancia de la seguridad al trabajar con componentes electrónicos.</li>
+            <li>Uso de equipos de medición para análisis y diagnóstico de circuitos.</li>
+        </ul>
+    </section>
+
+    <section id="circuitos-digitales">
+        <h2>2. Circuitos Digitales</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>En este taller, los estudiantes profundizarán en los circuitos digitales, comprendiendo el funcionamiento de compuertas lógicas, flip-flops y otros componentes digitales. Aprenderán a trabajar con señales binarios y a diseñar sistemas digitales básicos. Además, se les enseñará a realizar proyectos utilizando microcontroladores como Arduino, que integran la electrónica con la programación.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Aprender a diseñar circuitos digitales y trabajar con compuertas lógicas.</li>
+            <li>Construir circuitos utilizando dispositivos como flip-flops, contadores y registros.</li>
+            <li>Diseñar e implementar proyectos sencillos utilizando microcontroladores (por ejemplo, Arduino).</li>
+            <li>Comprender el manejo de señales digitales y analógicas.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Placas de pruebas y cables de conexión.</li>
+            <li>Microcontroladores como Arduino o Raspberry Pi.</li>
+            <li>Componentes electrónicos digitales como transistores, LED, resistencias y circuitos integrados (ICs).</li>
+            <li>Software para programación de microcontroladores (por ejemplo, IDE de Arduino).</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>El funcionamiento de las compuertas lógicas y su aplicación en sistemas digitales.</li>
+            <li>El uso de microcontroladores y cómo interactúan con otros componentes electrónicos.</li>
+            <li>Cómo diseñar circuitos para tareas específicas como controladores de luces o sistemas de alarma.</li>
+            <li>El principio de las señales digitales y su procesamiento en un entorno de microcontroladores.</li>
+        </ul>
+    </section>
+
+    <section id="electronica-analogica">
+        <h2>3. Electrónica Analógica</h2>
+        <p><strong>Descripción:</strong></p>
+        <p>Este taller está enfocado en los circuitos electrónicos analógicos, abarcando temas como amplificadores, filtros, osciladores, y demás componentes utilizados en sistemas electrónicos. Los estudiantes aprenderán a trabajar con señales de voltaje, corriente y frecuencia, realizando análisis y proyectos donde se emplean transistores, resistencias y otros componentes para controlar estas señales.</p>
+
+        <p><strong>Objetivos:</strong></p>
+        <ul>
+            <li>Comprender los fundamentos de la electrónica analógica y cómo se utilizan los componentes electrónicos para modificar señales.</li>
+            <li>Aprender a diseñar circuitos amplificadores y osciladores.</li>
+            <li>Desarrollar habilidades para analizar y medir señales analógicas en diferentes aplicaciones.</li>
+            <li>Aplicar los conocimientos para realizar proyectos prácticos de electrónica analógica.</li>
+        </ul>
+
+        <p><strong>Herramientas necesarias:</strong></p>
+        <ul>
+            <li>Placas de pruebas y equipos de medición (multímetros, osciloscopios).</li>
+            <li>Componentes analógicos como transistores, capacitores y resistencias.</li>
+            <li>Fuentes de alimentación de corriente continua (DC) y alterna (AC).</li>
+            <li>Software para simulación de circuitos analógicos, como SPICE o LTspice.</li>
+        </ul>
+
+        <p><strong>Puntos a saber:</strong></p>
+        <ul>
+            <li>Cómo amplificar señales y controlar la ganancia en un amplificador analógico.</li>
+            <li>Diseñar filtros para modificar frecuencias específicas en señales.</li>
+            <li>La importancia de las señales de corriente continua (DC) y alterna (AC) en sistemas electrónicos.</li>
+            <li>El análisis y el diagnóstico de problemas comunes en circuitos electrónicos analógicos.</li>
+        </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Escuela Técnica. Todos los derechos reservados.</p>
+      <p>Dirección: Batalla de Chacabuco 276, Grand bourg, Argentina | Teléfono: 02320 48-0129</p>
+  </footer>
+
+</body>
+</html>
